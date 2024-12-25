@@ -1,0 +1,9 @@
+webclient:
+  order-service:
+    base-url: http://localhost:9002/api/orders
+    connect-timeout: 3000
+    read-timeout: 5000
+  payment-service:
+    base-url: http://localhost:9001/api/payments
+    connect-timeout: 3000
+    read-timeout: 5000
